@@ -51,8 +51,6 @@ nav, footer{
   padding-right: 50px;
 }
 
-
-
 .card-body{
   color: #fff;
 }
@@ -70,9 +68,9 @@ nav, footer{
 
 
 /* Atributos para seccion contacto */
-.contacto{
-  padding-left: 180px;
-  padding-right: 150px;
+.typeform-widget{
+  padding-left: 150px;
+  padding-right: 120px;
 }
 
 .contacto p{
