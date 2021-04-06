@@ -26,7 +26,7 @@ nav, footer{
 }
 
 .quienes-somos h2{
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 400;
   padding-left: 43rem;
 }
@@ -42,20 +42,42 @@ nav, footer{
 
 /* Atributos para seccion destacados */
 .destacados .text-white{
-  font-size: 35px;
+  font-size: 45px;
   padding-left: 48rem;
 }
 
 .card-deck{
-  padding-left: 80px;
-  padding-right: 150px;
-
+  padding-left: 120px;
+  padding-right: 50px;
 }
 
+
+
+.card-body{
+  color: #fff;
+}
+
+.card-title{
+  font-size: 32px;
+}
+.card-text{
+  font-size: 25px;
+}
+
+.card img{
+  height: 200px;
+}
+
+
 /* Atributos para seccion contacto */
+.contacto{
+  padding-left: 180px;
+  padding-right: 150px;
+}
+
 .contacto p{
-  font-size: 35px;
-  padding-left: 48rem;
+  font-size: 45px;
+  /* padding-left: 48rem; */
 }
 
 /* Atributos para seccion footer */
