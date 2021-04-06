@@ -3,7 +3,7 @@ body{
 }
 
 /* estilos para el nav */
-nav{
+nav, footer{
   font-family: 'Nunito', sans-serif;
 }
 .navbar-brand{
@@ -58,6 +58,11 @@ nav{
   padding-left: 48rem;
 }
 
+/* Atributos para seccion footer */
+ footer h1{
+   font-weight:600;
+   font-size: 30px;
+ }
 
 /* Atributos para dispositivo móvil */
 
