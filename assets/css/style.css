@@ -19,8 +19,10 @@ nav{
 }
 /* Atributos para seccion quienes somos */
 
-.quienes-somos{
+.quienes-somos, .destacados, .contacto{
   font-size: 'Palaquin', sans-serif;
+  background-color: BLACK;
+  font-weight: 400;
 }
 
 .quienes-somos h2{
@@ -37,6 +39,19 @@ nav{
 .container p{
   font-size: 22px;
 }
+
+/* Atributos para seccion destacados */
+.destacados .text-white{
+  font-size: 35px;
+  padding-left: 48rem;
+}
+
+.card-deck{
+  padding-left: 80px;
+  padding-right: 150px;
+
+}
+
 
 /* Atributos para dispositivo móvil */
 
