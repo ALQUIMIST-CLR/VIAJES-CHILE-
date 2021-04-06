@@ -8,15 +8,37 @@ nav{
 }
 .navbar-brand{
   font-weight:600;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 1px;
 }
 
 .navbar-nav{
   font-weight: 400;
-  font-size: 25px;
+  font-size: 21px;
   letter-spacing: 1px;
 }
+/* Atributos para seccion quienes somos */
+
+.quienes-somos{
+  font-size: 'Palaquin', sans-serif;
+}
+
+.quienes-somos h2{
+  font-size: 35px;
+  font-weight: 400;
+  padding-left: 43rem;
+}
+
+.container i{
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+
+.container p{
+  font-size: 22px;
+}
+
+/* Atributos para dispositivo móvil */
 
 @media only screen and (max-width: 1024px){
   .navbar-brand{
@@ -24,5 +46,22 @@ nav{
     letter-spacing: 0px;
   }
 
+  .quienes-somos h2{
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .container p{
+    font-size: 15px;
+  }
+
+  .container br{
+    display: none;
+  }
+
+  .container i{
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 
 }
