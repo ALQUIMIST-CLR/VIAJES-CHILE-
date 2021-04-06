@@ -28,7 +28,6 @@ nav, footer{
 .quienes-somos h2{
   font-size: 45px;
   font-weight: 400;
-  padding-left: 43rem;
 }
 
 .container i{
@@ -43,7 +42,6 @@ nav, footer{
 /* Atributos para seccion destacados */
 .destacados .text-white{
   font-size: 45px;
-  padding-left: 48rem;
 }
 
 .card-deck{
