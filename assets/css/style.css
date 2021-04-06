@@ -52,6 +52,12 @@ nav{
 
 }
 
+/* Atributos para seccion contacto */
+.contacto p{
+  font-size: 35px;
+  padding-left: 48rem;
+}
+
 
 /* Atributos para dispositivo móvil */
 
