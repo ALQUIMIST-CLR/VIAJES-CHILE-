@@ -10,6 +10,7 @@ let buttons = document.querySelectorAll('a');
       });
     });
   });
+  
   // Código para inicio de carusel con Javascript
 $(document).ready(function(){
       // Activate Carousel
@@ -32,3 +33,8 @@ $(document).ready(function(){
      $("#carouselExampleControls").carousel("next");
    });
 });
+
+// Código para activar tooltip a favicons
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
