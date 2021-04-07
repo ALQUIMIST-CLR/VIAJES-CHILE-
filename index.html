@@ -33,22 +33,22 @@
        <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-md-5">
            <li class="nav-item active">
-             <a class="nav-link mr-md-3" href="#">Inicio<span class="sr-only">(current)</span></a>
+             <a class="nav-link mr-md-3" href="#principio">Inicio<span class="sr-only">(current)</span></a>
            </li>
            <li class="nav-item mr-md-3">
-             <a class="nav-link disabled" href="#" aria-disabled="true">Quienes somos</a>
+             <a class="nav-link" href="#viajes" aria-disabled="true">Quienes somos</a>
            </li>
            <li class="nav-item mr-md-3">
-             <a class="nav-link disabled" href="#" aria-disabled="true">Destacados</a>
+             <a class="nav-link" href="#destacado" aria-disabled="true">Destacados</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+             <a class="nav-link" href="#form" tabindex="-1" aria-disabled="true">Contacto</a>
            </li>
          </ul>
        </div>
      </nav>
       <!-- Código para la seccsion principal con carrusel -->
-     <section class="seccion principal">
+     <section id="principio" class="seccion principal">
        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
          <div class="carousel-inner">
            <div class="carousel-item active">
@@ -72,7 +72,7 @@
        </div>
      </section>
      <!-- Código para la seccion Quiénes somos  3 columnas alineadas al inicio e iconos de fontawesone-->
-     <section class="quienes-somos text-white py-lg-5 px-lg-5">
+     <section id="viajes" class="quienes-somos text-white py-lg-5 px-lg-5 d-none d-lg-block">
          <h2 class="pb-lg-3 pt-lg-5 text-center">¿Quiénes somos?</h2>
        <div class="container mw-100" >
          <hr class="bg-info mb-lg-5" style="height:1px">
@@ -122,7 +122,7 @@
        </div>
      </section>
      <!-- Codigo para seccion de card -->
-     <section class="destacados py-lg-5 px-lg-5">
+     <section id="destacado" class="destacados py-lg-5 px-lg-5">
        <p class="text-white pb-lg-3 pt-lg-5 mt-lg-5 text-center">Destacados</p>
        <hr class="bg-info ml mb-lg-5" align="center" style="height: 1px;">
        <div class="card-deck pb-lg-5">
@@ -165,7 +165,7 @@
        </div>
      </section>
      <!-- Código para seccion de contacto utilizando typeform -->
-    <section class="contacto py-lg-5">
+    <section id="form" class="contacto py-lg-5">
        <p class="text-white text-center pb-lg-3 pt-lg-5">Contacto</p>
        <hr class="bg-info mb-lg-5 mx-lg-5" align="center" style="height: 1px;">
          <div class="typeform-widget" data-url="https://form.typeform.com/to/XzkvXxyy?typeform-medium=embed-snippet"

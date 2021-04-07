@@ -1,8 +1,11 @@
+/* html {
+  scroll-behavior: smooth;
+} */
 body{
   width: 100%;
 }
 
-/* estilos para el nav */
+/* Atributos para el nav */
 nav, footer{
   font-family: 'Nunito', sans-serif;
 }
