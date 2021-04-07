@@ -10,7 +10,7 @@ let buttons = document.querySelectorAll('a');
       });
     });
   });
-  
+
   // Código para inicio de carusel con Javascript
 $(document).ready(function(){
       // Activate Carousel
