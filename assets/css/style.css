@@ -58,18 +58,6 @@ nav, footer{
   color: #fff;
 }
 
-.card-title{
-  font-size: 32px;
-}
-.card-text{
-  font-size: 25px;
-}
-
-.card img{
-  height: 200px;
-}
-
-
 /* Atributos para seccion contacto */
 .typeform-widget{
   padding-left: 150px;
@@ -127,6 +115,66 @@ nav, footer{
     padding-right: 20px;
   }
 
+  .card-text br{
+    display: none;
+  }
 
+  .card-title{
+    font-size: 25px;
+  }
+  .card-text{
+    font-size: 20px;
+  }
+
+  .contacto{
+    padding-right: 20px;
+  }
+
+  footer .text-white{
+    padding-left: 40px;
+    font-size: 35px;
+  }
+
+  footer .fab{
+    padding-left: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .card-title{
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 15px;
+  }
+
+  .card img{
+    height: 100px;
+  }
+
+  footer .text-white{
+    padding-left: 80px;
+  }
+
+  footer .fab{
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .card-title{
+    font-size: 30px;
+  }
+  .card-text{
+    font-size: 25px;
+  }
+
+  .card img{
+    height: 200px;
+  }
+
+  footer h1{
+    margin-left: 250px;
+  }
 
 }
