@@ -1,15 +1,3 @@
-// Código método polyfill para smoothscroll del navegador y secciones
-let buttons = document.querySelectorAll('a');
-  buttons.forEach((button) => {
-    button.addEventListener('click', (e) => {
-      e.preventDefault();
-      let target = e.currentTarget.getAttribute('href');
-
-      document.querySelector(target).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
 
   // Código para inicio de carusel con Javascript
 $(document).ready(function(){
@@ -34,7 +22,8 @@ $(document).ready(function(){
    });
 });
 
-// Código para activar tooltip a favicons
+// Codigo tooltip para redes sociales
+
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })

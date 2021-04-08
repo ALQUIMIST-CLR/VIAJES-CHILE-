@@ -1,6 +1,7 @@
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
+
 body{
   width: 100%;
 }
@@ -20,6 +21,7 @@ nav, footer{
   font-size: 21px;
   letter-spacing: 1px;
 }
+
 /* Atributos para seccion quienes somos */
 
 .quienes-somos, .destacados, .contacto{
@@ -76,7 +78,6 @@ nav, footer{
 
 .contacto p{
   font-size: 45px;
-  /* padding-left: 48rem; */
 }
 
 /* Atributos para seccion footer */
@@ -115,5 +116,17 @@ nav, footer{
     padding-left: 3em;
     padding-right: 3em;
   }
+
+  .typeform-widget{
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+
+  .card-deck{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
 
 }
